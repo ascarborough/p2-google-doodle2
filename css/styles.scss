@@ -9,6 +9,38 @@ body {
     background: #d9a8d6;
 }
 
-svg {
-    width: 100px;
+// Stage 
+
+#stage {
+    position: relative;
+    overflow: hidden;
 }
+
+#stage svg {
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+}
+
+#stage h1 {
+    position: absolute;
+    bottom: 50%; 
+    left: 40%; 
+    margin: 0; 
+}
+
+// Animations 
+
+//First Frame 
+#stage h1, svg {
+    opacity: 0; 
+     transition: opacity 2s;
+}
+
+//Last Frame
+#stage:hover h1, 
+#stage:hover svg {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
