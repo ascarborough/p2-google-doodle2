@@ -1,4 +1,14 @@
+// Main Styles 
+
+@import "normalize"; 
+@import "google-homepage"; 
+
 /* Styling */
+
 body {
-    background: #27b28d;
+    background: #d9a8d6;
+}
+
+svg {
+    width: 100px;
 }
