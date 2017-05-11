@@ -6,7 +6,7 @@
 /* Styling */
 
 body {
-    background: #d9a8d6;
+    background: white;
 }
 
 // Stage 
@@ -19,7 +19,7 @@ body {
     position: absolute;
 }
 
-h1 {
+#stage h1 {
   margin-left: 80px;
   text-align: center;
   margin-top: 150px;
@@ -30,14 +30,14 @@ h1 {
   font-family: 'Anton', sans-serif;
 }
 
-img {
+#stage img {
   height: 300px;
   width: 600px;
  animation: slideInUp 5s; 
   overflow: hidden;
 }
 
-svg {
+#stage svg {
   z-index: 4;
   width: 80px;
   position: relative;
@@ -49,10 +49,6 @@ svg {
   
 }
 
-svg:hover {
-  transform: rotate(180deg);
-  transition: transform 2s;
-}
 
 @keyframes spinning {
   from {
