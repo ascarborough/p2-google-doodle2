@@ -35,23 +35,13 @@
   position: relative;
   left: 178px;
   bottom: 113px;
-  animation: fadeIn 7s, 
-    spinning 4s 4s;
-  transition: transform 2s;
-  
+  animation: fadeIn 7s;
 }
 
 
 // Animations 
 
 
-@keyframes spinning {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 
