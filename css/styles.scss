@@ -5,13 +5,9 @@
 
 /* Styling */
 
-body {
-    background: white;
-}
 
-// Stage 
+/* Styling */
 
-/* Presentation */
 #stage {
     height: 300px;
     width: 600px;  
@@ -42,10 +38,15 @@ body {
   width: 80px;
   position: relative;
   left: 178px;
-  bottom: 120px;
+  bottom: 113px;
   animation: fadeIn 7s, 
-    spinning 4s 4s;  
+    spinning 4s 4s;
+  transition: transform 2s;
+  
 }
+
+
+// Animations 
 
 
 @keyframes spinning {
@@ -56,9 +57,5 @@ body {
     transform: rotate(360deg);
   }
 }
-
-
-// Animations 
-
 
 

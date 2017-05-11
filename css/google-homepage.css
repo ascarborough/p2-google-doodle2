@@ -2,6 +2,7 @@
 
 
 #stage {
+    background-color: gray; 
     height: 300px;
     width: 600px;
 }
